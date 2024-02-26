@@ -1,3 +1,4 @@
+// ĐCM Vậy cái này chỉ cần hai thằng add nhau là ok à hay sao, rep zalo
 /* arr.length & arr.push()
 const arr=[25, 154, 461, 67, 32, 43];
 var lenght = arr.length;
