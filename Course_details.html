@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+         #home, #contact{
+            transition: 0.5s;
+            border: 2px black dashed;
+        }
+        #home:hover, #contact:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        #details{
+            border: 2px black dashed;
+            background-color: black;
+            color: white;
+        }
+        #btn{
+            transition: 0.5s;
+            color: black; 
+            border: 2px white dashed;
+        }
+        #btn:hover{
+            background-color: black;
+            color: white;
+        }
+        #information{
+            color: black;
+            transition: 0.5s;
+        }
+        #information:hover{
+            color: white;
+            background-color:cornflowerblue;
+        }
+        #Learn_html{
+            border: rgb(62, 61, 61) 2px solid;
+            background-color: transparent;
+            transition: 0.5s ease;
+        }
+        #Learn_html:hover{
+            cursor: pointer;
+            background-color: white;
+        }
+    </style>
+</head>
+<body style="background-color: white">
+    <header style="color: black;">
+        <a style="color: black;" href="Course_of_web.html"><h2 id="home" style="display: inline-block; padding: 0.5%;">HOME</h2></a>
+       <a style="color: black;" href="Course_details.html"><h3 id="details" style="display: inline-block; margin-left:4.5%; padding: 0.5%;"> DETAILS IN THE COURSE</h3></a>
+       <div style="position: absolute; left: 83%; top: 6%; width: 20%; display: inline-block;">
+           <a id="btn" style=" text-decoration: none;margin-right: 15%; padding: 3%;" href="Login.html">LOGIN</a>
+       <a id="btn" style=" text-decoration: none;padding: 3%;" href="">SIGN UP</a>
+   </div>
+   </header>
+   <main style="text-align: center;">
+    <div id="Course_HTML" style="width: 30%;background-color: orange; text-align: center; display: inline-block;">
+        <img style="width: 100%;" src="https://topviecit.vn/blog/wp-content/uploads/2021/11/thumb-5.jpg" alt="">
+        <h2>Hi! this is the HTML course</h2>
+        <p style="font-size: larger;">You want to learn knowledge of HTML? Are you Ready? Click here to learn now!!!</p>
+        <a href="#"><button id="Learn_html" type="button" style="font-size: larger; padding: 2%; margin-bottom: 1%;">LEARN HTML!</button></a>
+    </div>
+    <div id="Course_JS" style="width: 30%;background-color: gold; text-align: center; display: inline-block; margin-left: 4.5%; margin-right: 4.5%;">
+        <img style="width: 100%; padding-top: 8.5%;" src="https://lotusacademy.edu.vn/api/media/download/703/82758846-0394c180-9e0f-11ea-8b02-51f885eff3f5.png" alt="">
+        <h2>Hey guys, do you try this?</h2>
+        <p style="font-size: larger;">Don't hesistan, come on you will learn it?</p>
+        <a href="#"><button id="Learn_html" type="button" style="font-size: larger; padding: 2%; margin-bottom: 1%;">LEARN Javascript!</button></a>
+    </div>
+    <div id="Course_CSS" style="width: 30%;background-color: rgb(0, 166, 255); text-align: center; display: inline-block;padding-top: 1.5%;">
+        <img style="width: 100%;" src="https://irp.cdn-website.com/c57d8c85/dms3rep/multi/css-la-gi.webp" alt="">
+        <h2>CSS amazing design</h2>
+        <p style="font-size: larger;">Lets learn now!!!</p>
+        <a href="#"><button id="Learn_html" type="button" style="font-size: larger; padding: 2%; margin-bottom: 1%;">LEARN CSS!</button></a>
+    </div>      
+   </main>
+
+   <footer id="end_pages" style="background-color: white; width: 100%; height: 100%;">
+    <ul style="list-style:none; color:black;">
+        <li style="font-size: large; padding-top: 1%; padding-bottom: 1%;">Contact: <i class="fa-solid fa-phone"></i> 8444803682 - <i class="fa-solid fa-envelope"></i> levanvuongsg43@gmail.com</li>
+        <li id="information" style="font-size: large; display: inline-block; padding: 1%; border: rgb(17, 200, 103) 2px dashed;"><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i> <a style="color: black;" href="https://www.facebook.com/profile.php?id=100039912203425">https://www.facebook.com/profile.php?id=100039912203425</a> </li>
+        <li id="information" style="font-size: large; display: inline-block; padding: 1%; padding-right: 1%;border: rgb(67, 242, 14) 2px dashed; margin-left: 1.5%; margin-right: 1.5%;"><i class="fa-brands fa-instagram" style="color:black;"></i> <a style="color: black;" href="https://www.instagram.com/levuong111/">https://www.instagram.com/levuong111/</a></li>
+        <li id="information" style="font-size: large; display: inline-block; border: rgb(225, 211, 15) 2px dashed; padding: 1%;"><i class="fa-brands fa-github"></i> <a style="color: black;" href="https://github.com/levuongVN/levuongVN">https://github.com/levuongVN/levuongVN</a> </li>
+    </ul>
+    <h2 style="position: relative; left: 35%;">THE WEB WAS MAKED BY LEVUONG</h2>
+</footer>
+</body>
+</html>

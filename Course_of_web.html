@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web that's best for the life</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        body{
+            font-family: "Roboto", sans-serif;
+        }
+        #home{
+            transition: 0.5s;
+            border: 2px black dashed;
+        }
+        #home:hover{
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+        #btn{
+            transition: 0.5s;
+            color: white; 
+            border: 2px white dashed;
+        }
+        #btn:hover{
+            background-color: white;
+            color: black;
+        }
+        #left_slide:hover, #right_slide:hover{
+            cursor: pointer;
+        }
+        #information{
+            color: black;
+            transition: 0.5s;
+        }
+        #information:hover{
+            color: white;
+            background-color:cornflowerblue;
+        }
+    </style>
+</head>
+<body style="color:white;background-image: url('https://media1.giphy.com/media/TxVVB6PfWMjE4/200.webp?cid=ecf05e47qpazgx0iijh7z4y4kzga8rr4dkuwjf0lynofzgoc&ep=v1_gifs_search&rid=200.webp&ct=g'); ">
+    <header style="color: white;">
+         <a style="color: black;" href="Course_of_web.html"><h2 id="home" style="display: inline-block;background-color: white; padding: 0.5%;">HOME</h2></a>
+        <a style="color: white;" href="Course_details.html"><h3 id="home" style="display: inline-block; margin-left:4.5%; padding: 0.5%;"> DETAILS IN THE COURSE</h3></a>
+        <div style="position: absolute; left: 83%; top: 6%; width: 20%; display: inline-block;">
+            <a id="btn" style=" text-decoration: none;margin-right: 15%; padding: 3%;" href="Login.html">LOGIN</a>
+        <a id="btn" style=" text-decoration: none;padding: 3%;" href="">SIGN UP</a>
+    </div>
+    </header>
+    <main>
+        <div style="position: absolute; left: 48%;top: 90%; z-index: 2;">
+            <p id="dot1" style="display:inline-block;width:0.8em;height:0.8em;border-radius:50%;background-color:white;opacity:1;"></p>
+            <p id="dot2"style="display:inline-block;width:0.8em;height:0.8em;border-radius:50%;background-color:white;opacity:0.5;"></p>
+            <p id="dot3"style="display:inline-block;width:0.8em;height:0.8em;border-radius:50%;background-color:white;opacity:0.5;"></p>
+        </div>
+        <button id="right_slide" style="color: white;font-size: 300%; position: absolute;left: 83.7%;padding-top: 20.7%; padding-bottom: 20%; padding-right: 1.5%;padding-left: 1.5%;opacity: 0.5; z-index:2;background-color: transparent;border: none; " type="button"><i class="fa-solid fa-chevron-right"></i></button>
+        <button id="left_slide" style="color: white;font-size: 300%;position: absolute; left: 9.9%;z-index: 2;padding-top: 20.7%; padding-bottom: 20%; padding-right: 1.5%;padding-left: 1.5%;opacity: 0.5;background-color: transparent;border: none; " type="button"><i class="fa-solid fa-chevron-left"></i></button>
+        <img id="img_slide" src="https://huynhthaihung.com/wp-content/uploads/2019/02/html.jpg" style="opacity: 1;;width: 80%; position: relative; left: 9.5%; z-index: 1;" alt="">
+
+        <div id="text_1" style="background-color: orange; padding: 1%; width: 80%; position: relative; left: 9%;border: 2px solid rgb(132, 138, 138);">
+            <h2 style="margin-left: 3%;">What do you can with HTML?</h2>
+            <i style="font-size: 200%;" class="fa-brands fa-html5"></i> <p style="margin-left: 3%;position: absolute; top: 22%; font-size: larger;">As you know the HTML this is first knowledge if we want to learn front end for the web, actually it is 'Hypertext Markup Language'. It is going to make about content in a web page, for example: This paragraph is maked by tag 'p' in HTML </p>
+            <br>
+            <br>
+            <label style="font-size: larger;" for=""><i class="fa-solid fa-angles-right" style="color: black;"></i> You can test is here</label>
+            <input id="input_ex" style="margin-left: 1%; font-size: 100%; padding-left: 20%; padding-right: 20%;" type="text" placeholder="Enter your paragraph here" value="">
+            <button id="btn_of_viewCode1" type="button" style="background-color: darkcyan; padding-left: 1%; padding-right: 1%; font-size: large; cursor: pointer;border: none; " for="" >Click here to view code!</button>
+            <p style="padding: 2.5%;background-color: black;" id="text_example1"></p>
+        </div>
+        <div id="text_2" style="background-color: rgb(26, 195, 213); width: 80%; position: relative; left: 9%; padding: 1%; margin-top: 1%;">
+            <h2 style="margin-left: 3%;">What is Css (Cascarding Style Sheets) ?</h2>
+            <i style="font-size: 200%;" class="fa-brands fa-css3-alt"></i><p style="font-size: larger; margin-left: 3%; position: absolute; top: 10%;">Second ok you can understand that is programing language, it can to design your web, example: Design the background in the web or text color and more than</p>
+            <br><br><br><br>
+            <b style="color: black; font-size: large; position: absolute; left: 20%; top: 28%;">With CSS</b>
+            <img style="width: 100%; display: block;" src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/04/s_601945040BCA3610D759145A4442799C97B904D9A9F8326DD30FDF0CF48A96B7_1555165317581_github-compare.jpg?ssl=1" alt="With CSS and Without CSS">
+            <b style="color: black; font-size: large; position: absolute; top:28%;left: 70%;">Without CSS</b>
+        </div>
+        <div id="text_3" style="background-color: rgb(214, 214, 83); width: 80%; position: relative; left: 9%; padding: 1%; margin-top: 1%; color: black;">
+            <h2 style="margin-left: 3%;">What is Js (Javascript)? </h2>
+            <i class="fa-brands fa-js" style=" font-size: 200%;"></i><p style="font-size: larger; margin-left: 3%; position: absolute; top: 32%;">Js or Javascript, it is programing language so important for the web, if CSS design web at static form then the Js can to make program when you want to interact with the web. Ok for a example: you click to something and after that you can view the alert.</p>
+            <br><br>
+            <button id="btn_of_viewCode2" style="font-size: larger; position: relative; left: 40%; border: 2px pink dashed; background-color: white; cursor: pointer;"> Click here to view the alert.</button>
+        </div>
+    </main>
+    <footer id="" style="background-color: gray; width: 100%;">
+        <ul style="list-style:none;">
+            <li style="font-size: large; padding-top: 1%; padding-bottom: 1%;">Contact: <i class="fa-solid fa-phone"></i> 8444803682 - <i class="fa-solid fa-envelope"></i> levanvuongsg43@gmail.com</li>
+            <li id="information" style="font-size: large; display: inline-block; padding: 1%; border: rgb(17, 200, 103) 2px dashed;"><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i> <a style="color: white;" href="https://www.facebook.com/profile.php?id=100039912203425">https://www.facebook.com/profile.php?id=100039912203425</a> </li>
+            <li id="information" style="font-size: large; display: inline-block; padding: 1%; padding-right: 1%;border: rgb(67, 242, 14) 2px dashed;"><i class="fa-brands fa-instagram" style="color:white;"></i> <a style="color: white;" href="https://www.instagram.com/levuong111/">https://www.instagram.com/levuong111/</a></li>
+            <li id="information" style="font-size: large; display: inline-block; border: rgb(225, 211, 15) 2px dashed; padding: 1%;"><i class="fa-brands fa-github"></i> <a style="color: white;" href="https://github.com/levuongVN/levuongVN">https://github.com/levuongVN/levuongVN</a> </li>
+        </ul>
+        <h2 style="position: relative; left: 32%;">THE WEB WAS MAKED BY LEVUONG</h2>
+    </footer>
+    <script src="CourseOfWeb.js"></script>
+</body>
+</html>

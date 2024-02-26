@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT2</title>
+</head>
+<body style="text-align: center; background: linear-gradient(to right, black,red);font-family: Roboto;">
+    <div style="background-color: black; width: 30%; position: relative; left: 35%; border-radius: 12%; ">
+        <h2 style="padding-top: 2%; color: white; ;" >Tip Calculator</h2>
+           <div style="padding-top: 0%;  padding-left: 3%; font-size: larger; background-color: white; border-bottom-left-radius:12% ;border-bottom-right-radius:12% ;"> 
+            <h2 >How much was your bill?</h2>
+            <Label style="display: inline-block;"><h4>$</h4></Label>
+           <input id="your_bill" type="number" style=" font-size: larger;" value="0" >
+            <h2>How was your Service?</h2>
+            <Select id="select" style="font-size: large;" >
+                <option value="" >YOUR FEEL IS HERE!</option>
+                <option id="great" value="Verry good" >30% - Outstanding</option>
+                <option id="nice" value="Good">20% - good</option>
+                <option id="normal" value="Normal">15% - It was ok</option>
+                <option id="hate" value="Bad">10% - Bad</option>
+            </Select>
+            <h2 style="padding-right: 3%;">How many people are sharing the bill? </h2>
+            <input id="people" type="number" value="1" style="font-size: large;" placeholder="Please enter here"> people
+            <br>
+            <button style="margin-top: 5%; font-size: larger; background-color: rgb(199, 68, 68); color: white;" id="btn">CALCULATE!</button>
+            <h2 id="text_1"><b></b></h2>
+            <h2 style="display: inline;" id="text_2"></h2>
+            <h3 id="text_3"></h3>
+            <br><br><br><br><br>
+        </div>
+    </div>
+<script src="for_Web_BT2.js"></script>
+</body>
+</html>

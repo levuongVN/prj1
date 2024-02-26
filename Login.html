@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        body{font-family: "Roboto Condensed", sans-serif;font-size: larger;}
+        #home{
+            transition: 0.5s;
+            border: 2px black dashed;
+        }
+        #home:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        #details{
+            border: 2px black dashed;
+            background-color: transparent;
+            color: black;
+            transition: 0.5s;
+        }
+        #details:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        #btn{
+            transition: 0.5s;
+            color: black;  
+            border: 2px white dashed;
+        }
+        #btn:hover{
+            background-color: black;
+            color: white;
+        }
+        #btn{
+            background-color: transparent;
+            transition: 0.5s;
+        }
+        #btn:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        </style>
+</head>
+
+<body style="background-color: #8BC6EC;background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); ">
+    <header style="color: black;">
+        <a style="color: black;" href="Course_of_web.html"><h2 id="home" style="display: inline-block; padding: 0.5%;">HOME</h2></a>
+       <a style="color: black;" href="Course_details.html"><h3 id="details" style="display: inline-block; margin-left:4.5%; padding: 0.5%;"> DETAILS IN THE COURSE</h3></a>
+       <div style="position: absolute; left: 83%; top: 6%; width: 20%; display: inline-block;">
+           <a id="btn" style=" text-decoration: none;margin-right: 15%; padding: 3%; background-color: black; color: white;" href="Login.html">LOGIN</a>
+       <a id="btn" style=" text-decoration: none;padding: 3%;" href="">SIGN UP</a>
+   </div>
+   </header>
+    <div style="background-color: white; text-align: center;width: 40%;height: max-content;position: absolute;left: 30%;top: 15%;border-radius: 10px; " id="Login">
+        <form action="" style="padding: 1%;">
+            <h1>LOGIN</h1>
+        <h3>You can do it! Lets go to learn!!!</h3>
+            <div id="email_login" style="margin-left: 0%;">
+                <label style="display: block; position: relative; left: -21.5%;" for="">Email:</label>
+                <i style="position: absolute; top: 53.5%; left: 26%; opacity: 0.5;" class="fa-solid fa-envelope"></i>
+                <input style=" padding-top: 0.8%;padding-bottom: 0.8%;width: 50%;" type="email" placeholder="          Enter your email">
+            </div>
+            <div id="pass" style="margin-top: 2%; margin-bottom: 2%;">
+                <label style="display: block;position: relative; left: -18.5%;" for="">Password:</label>
+                <i style="position: absolute;top: 72%; left: 26.5%; opacity: 0.5;" class="fa-solid fa-lock"></i>
+                <input  style=" padding-top: 0.8%;padding-bottom: 0.8%;width: 50%; " type="password"  placeholder="         Enter your password">
+                <a style="display: block; font-size: small; color: gray; opacity: 0.5; text-decoration: none; position: relative; left: 15%; cursor: pointer;" href="#">Forgot your password?</a>
+            </div>
+            <button id="btn" style="font-size: larger; width: 45%; border-radius: 50px; border: 2px solid rgb(242, 223, 16); cursor: pointer;" type="button">LOGIN</button>
+        </form>
+    </div>
+</body>
+</html>
