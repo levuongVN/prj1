@@ -1,3 +1,4 @@
+//112233
 // Vượng Có mặt ỏ đây
 /* arr.length & arr.push()
 const arr=[25, 154, 461, 67, 32, 43];
