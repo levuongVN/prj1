@@ -1,5 +1,4 @@
-//112233
-// Vượng Có mặt ỏ đây
+//133245
 /* arr.length & arr.push()
 const arr=[25, 154, 461, 67, 32, 43];
 var lenght = arr.length;
